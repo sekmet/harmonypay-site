@@ -5,6 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     url: "https://www.harmonypay.one", // No trailing slash allowed!
+    siteUrl: "https://www.harmonypay.one", // No trailing slash allowed!
     title: "HarmonyPay",
     titleTemplate: "%s · Cryptocurrency Payment Gateway",
     description: "Cryptocurrency payment gateway for WooCommerce and Easy Digital Downloads. Receive coins directly into the wallet of your choice.",
