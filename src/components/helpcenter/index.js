@@ -23,11 +23,6 @@ export default function Example() {
                 The Invention of Blockchain has opened new possibilities the way payment systems transactions and trade can happen. 
                 The Blockchain also paves the path on how commercial contracts could be signed and legal issues addressed in the AI age that is fit for the technology of the 21st Century.
                 </p>
-                <ul>
-                  <li>Quis elit egestas venenatis mattis dignissim.</li>
-                  <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                  <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-                </ul>
                 <p>
                 Harmony Protocol is a decentralised innovative blockchain that is poised to upgrade TradFi. 
                 On the Harmony network there are many decentralised applications (aka dApps) that offer blockchain transactions and financial services. More and more keep added all the time. This creates an ecosystem of decentralised financial operations (aka deFi). 
