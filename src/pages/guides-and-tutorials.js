@@ -92,6 +92,9 @@ export default function Example(props) {
                 </Link>
                 </div>
                 <nav className="mt-5 px-2 space-y-1">
+                <h3 className="px-2 mb-6 text-sm font-semibold text-white uppercase tracking-wider" id="projects-headline">
+                  Help Center
+                </h3>                  
                   {pages.map((item) => (
                     <Link key={item.slug} to={`/guides-and-tutorials/${item.slug}`}>
                     <div

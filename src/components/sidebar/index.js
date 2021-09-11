@@ -30,7 +30,6 @@ export default function Example({pages}) {
     secondaryNavigation.push({ name: page.title, href: `/guides-and-tutorials/${page.slug}`, slug: page.slug, current: false })
   })
   
-  console.log(pages)
   return (
     <div className="flex flex-col flex-grow border-r border-gray-200 pt-5 pb-4 bg-white overflow-y-auto">
       <div className="flex items-center flex-shrink-0 py-3">
