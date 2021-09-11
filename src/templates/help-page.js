@@ -16,6 +16,7 @@ import Sidebar from '../components/sidebar'
 import Article from '../components/article'
 import { Link, graphql } from "gatsby"
 import get from 'lodash/get'
+import logo from "../images/logo_harmonypay.svg"
 
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
@@ -91,8 +92,8 @@ export default function Example(props) {
                 <Link to="/">
                   <img
                     className="h-8 w-auto"
-                    src="/images/logo_harmonypay.svg"
-                    alt="Workflow"
+                    src={logo}
+                    alt="HarmonyPay"
                   />
                 </Link>
                 </div>
@@ -114,23 +115,7 @@ export default function Example(props) {
                   ))}
                 </nav>
               </div>
-              <div className="flex-shrink-0 flex border-t border-indigo-800 p-4">
-                <a href="#" className="flex-shrink-0 group block">
-                  <div className="flex items-center">
-                    <div>
-                      <img
-                        className="inline-block h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                        alt=""
-                      />
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-base font-medium text-white">Tom Cook</p>
-                      <p className="text-sm font-medium text-indigo-200 group-hover:text-white">View profile</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
+
             </div>
           </Transition.Child>
           <div className="flex-shrink-0 w-14" aria-hidden="true">
