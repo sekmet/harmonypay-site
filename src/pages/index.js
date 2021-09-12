@@ -413,7 +413,7 @@ export default function Example() {
                   alt="HarmonyPay"
                 />
                 <p className="text-gray-500 text-xs">
-                We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flowless and safe way for digital and traditional currencies to interreact.
+                We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                 </p>
                 <div className="flex space-x-6">
                   {footerNavigation.social.map((item) => (
