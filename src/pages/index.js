@@ -169,7 +169,7 @@ export default function Example() {
                       </span>
                     </h1>
                     <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                    We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flowless and safe way for digital and traditional currencies to interreact.
+                    We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                     </p>
                     <div className="mt-10 sm:mt-12">
                       <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -309,7 +309,7 @@ export default function Example() {
                         <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                       </svg>
                       <p className="mt-6 text-2xl font-medium text-white">
-                      We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flowless and safe way for digital and traditional currencies to interreact.
+                      We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                       </p>
                     </div>
                     <footer className="mt-6">
