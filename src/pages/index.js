@@ -313,7 +313,7 @@ export default function Example() {
                       </p>
                     </div>
                     <footer className="mt-6">
-                      <p className="text-base font-medium text-white">Adam Spinosa</p>
+                      <p className="text-base font-medium text-white">Adam Spinos</p>
                       <p className="text-base font-medium text-cyan-100">CEO at Dezigne.co.uk</p>
                     </footer>
                   </blockquote>
