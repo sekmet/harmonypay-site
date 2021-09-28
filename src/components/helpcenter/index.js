@@ -37,7 +37,7 @@ export default function Example() {
               <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
                 <div className="rounded-md shadow">
                   <a
-                    href="mailto:hello@harmonypay.co.uk"
+                    href="https://twitter.com/HarmonyPayOne"
                     target="_blank"
                     className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-teal-600 hover:bg-teal-700"
                   >
