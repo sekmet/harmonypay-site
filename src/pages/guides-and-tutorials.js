@@ -18,6 +18,7 @@ import { Link, graphql } from "gatsby"
 import get from 'lodash/get'
 import Helpcenter from '../components/helpcenter'
 import logo from "../images/logo_harmonypay.svg"
+import logo_gray from "../images/logo_harmonypay_gray.svg"
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -86,7 +87,7 @@ export default function Example(props) {
                 <Link to="/">
                   <img
                     className="h-8 w-auto"
-                    src={logo}
+                    src={logo_gray}
                     alt="HarmonyPay"
                   />
                 </Link>
