@@ -19,6 +19,7 @@ import SEO from "../components/seo"
 
 import {features, blogPosts, navigation, footerNavigation} from '../data/home'
 import logo from "../images/logo_harmonypay.svg"
+import logo_gray from "../images/logo_harmonypay_gray.svg"
 import project from "../images/green-project-app-screenshot.jpg"
 import integration from "../images/integration_1wallet.jpg"
 import onetrust from "../images/The-ONE-we-trust-500px-1110x500.jpg"
@@ -68,13 +69,13 @@ export default function Example() {
                   <div className="hidden md:flex md:items-center md:space-x-6">
                     {/*<a href="#" className="text-base font-medium text-white hover:text-gray-300">
                       Log in
-                      </a>*/}
+                      </a>
                     <a
                       href="#"
                       className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
                     >
                       <DesktopComputerIcon className="h-6 w-6 ml-1" aria-hidden="true" /> Demo Store
-                    </a>
+                    </a>*/}
                   </div>
                 </nav>
               </div>
@@ -123,13 +124,13 @@ export default function Example() {
                         ))}
                       </div>
                       <div className="mt-6 px-5">
-                        <a
+                        {/*<a
                           href="https://harmonypay.swaps.vision/"
                           target="_blank"
                           className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700"
                         >
                           Demo Store
-                        </a>
+                        </a>*/}
                       </div>
                       {/*<div className="mt-6 px-5">
                         <p className="text-center text-base font-medium text-gray-500">
@@ -405,11 +406,12 @@ export default function Example() {
             Footer
           </h2>
           <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
-            <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+            {/*<div className="xl:grid xl:grid-cols-3 xl:gap-8">*/}
+            <div className="xl:grid xl:grid-cols-2 xl:gap-8">
               <div className="space-y-8 xl:col-span-1">
                 <img
                   className="h-12"
-                  src={logo}
+                  src={logo_gray}
                   alt="HarmonyPay"
                 />
                 <p className="text-gray-500 text-xs">
@@ -424,8 +426,9 @@ export default function Example() {
                   ))}
                 </div>
               </div>
-              <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-                <div className="md:grid md:grid-cols-2 md:gap-8">
+               {/*<div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+
+               <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions for</h3>
                     <ul className="mt-4 space-y-4">
@@ -477,7 +480,8 @@ export default function Example() {
                     </ul>
                   </div>
                 </div>
-              </div>
+
+              </div>*/}
             </div>
             <div className="mt-12 border-t border-gray-200 py-8">
               <p className="text-base text-gray-400 xl:text-center">&copy; {new Date().getFullYear()} HarmonyPay.</p>
