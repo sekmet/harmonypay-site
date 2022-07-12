@@ -313,10 +313,10 @@ export default function Example() {
                       We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                       </p>
                     </div>
-                    <footer className="mt-6">
-                      <p className="text-base font-medium text-white">Adam Spinos</p>
-                      <p className="text-base font-medium text-cyan-100">CEO at Dezigne.co.uk</p>
-                    </footer>
+{/*<footer className="mt-6">
+                      <p className="text-base font-medium text-white">XXXXXX</p>
+                      <p className="text-base font-medium text-cyan-100">XXXXXX</p>
+                    </footer>*/}
                   </blockquote>
                 </div>
               </div>
@@ -418,12 +418,12 @@ export default function Example() {
                 We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                 </p>
                 <div className="flex space-x-6">
-                  {/*footerNavigation.social.map((item) => (
+                  {footerNavigation.social.map((item) => (
                     <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">{item.name}</span>
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </a>
-                  ))*/}
+                  ))}
                 </div>
               </div>
                {/*<div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
