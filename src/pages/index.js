@@ -405,8 +405,8 @@ export default function Example() {
           <h2 id="footer-heading" className="sr-only">
             Footer
           </h2>
-{/*<div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
-            {/*<div className="xl:grid xl:grid-cols-3 xl:gap-8">* /}
+          <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
+            {/*<div className="xl:grid xl:grid-cols-3 xl:gap-8">*/}
             <div className="xl:grid xl:grid-cols-2 xl:gap-8">
               <div className="space-y-8 xl:col-span-1">
                 <img
@@ -418,14 +418,14 @@ export default function Example() {
                 We want to create interoperable systems and protocols that are intuitive to use for the end clients and users as well as create easy to integrate protocols that can be embedded into existing systems and offer flawless and safe way for digital and traditional currencies to interreact.
                 </p>
                 <div className="flex space-x-6">
-                  {footerNavigation.social.map((item) => (
+                  {/*footerNavigation.social.map((item) => (
                     <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">{item.name}</span>
                       <item.icon className="h-6 w-6" aria-hidden="true" />
                     </a>
-                  ))}
+                  ))*/}
                 </div>
-              </div>*/}
+              </div>
                {/*<div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
 
                <div className="md:grid md:grid-cols-2 md:gap-8">
